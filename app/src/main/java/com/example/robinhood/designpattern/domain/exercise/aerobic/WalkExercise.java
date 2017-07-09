@@ -6,8 +6,17 @@ package com.example.robinhood.designpattern.domain.exercise.aerobic;
 
 public class WalkExercise extends BodyTraningExercise {
 
+    public WalkExercise(long time) {
+        super(time);
+    }
+
     @Override
     long burnCalrorie() {
         return 0;
+    }
+
+    @Override
+    public void doExercise() {
+
     }
 }

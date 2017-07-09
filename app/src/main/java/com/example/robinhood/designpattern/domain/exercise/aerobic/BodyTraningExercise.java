@@ -6,4 +6,7 @@ package com.example.robinhood.designpattern.domain.exercise.aerobic;
 
 public abstract class BodyTraningExercise extends Aerobic {
 
+    public BodyTraningExercise(long time) {
+        super(time);
+    }
 }

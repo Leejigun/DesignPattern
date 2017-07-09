@@ -5,11 +5,14 @@ package com.example.robinhood.designpattern.domain.exercise.anaerobic;
  */
 
 public class DumbbellPress extends Anaerobic {
-    private int count;
 
-    public DumbbellPress() {
-        super(Locomotor.CHEST);
+    public DumbbellPress(int cycle, int count) {
+        super(cycle, count, Locomotor.CHEST);
     }
 
 
+    @Override
+    public void doExercise() {
+
+    }
 }

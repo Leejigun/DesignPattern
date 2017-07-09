@@ -1,16 +1,16 @@
 package com.example.robinhood.designpattern.domain.exercise.aerobic;
 
-import com.example.robinhood.designpattern.domain.exercise.Calrorie;
-import com.example.robinhood.designpattern.domain.exercise.Exercise;
+import com.example.robinhood.designpattern.domain.TimeExercise;
 
 /**
  * Created by robinhood on 2017. 7. 3..
  */
 
-public abstract class Aerobic extends Exercise {
-    private long spendTime;
+public abstract class Aerobic extends TimeExercise {
+    private long spendTime; //진행된 시간
 
-    public Aerobic() {
+    public Aerobic(long time) {
+        super(time);
     }
 
     public void setSpendTime(long spendTime) {

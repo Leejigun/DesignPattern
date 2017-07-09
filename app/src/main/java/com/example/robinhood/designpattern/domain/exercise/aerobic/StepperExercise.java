@@ -7,6 +7,10 @@ package com.example.robinhood.designpattern.domain.exercise.aerobic;
 public class StepperExercise extends Aerobic {
     private long step;
 
+    public StepperExercise(long time) {
+        super(time);
+    }
+
     public void setStep(long step) {
         this.step = step;
     }
@@ -18,5 +22,10 @@ public class StepperExercise extends Aerobic {
     @Override
     long burnCalrorie() {
         return 0;
+    }
+
+    @Override
+    public void doExercise() {
+
     }
 }

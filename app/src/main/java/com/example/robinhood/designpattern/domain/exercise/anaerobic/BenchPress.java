@@ -9,9 +9,13 @@ import java.util.Set;
 public class BenchPress extends Anaerobic {
     private int count;
 
-    public BenchPress() {
-        super(Locomotor.CHEST);
+    public BenchPress(int cycle, int count) {
+        super(cycle, count, Locomotor.CHEST);
     }
 
 
+    @Override
+    public void doExercise() {
+
+    }
 }

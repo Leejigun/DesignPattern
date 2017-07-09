@@ -14,12 +14,16 @@ public abstract class Anaerobic extends Exercise {
 
     private int weight;
 
+    private int count;
+
     protected Locomotor locomotor;
 
     protected Set<Locomotor> multiLocomotor;
 
-    public Anaerobic(Locomotor locomotor) {
+    public Anaerobic(int cycle, int count, Locomotor locomotor) {
         this.locomotor = locomotor;
+        this.cycle = cycle;
+        this.count = count;
         multiLocomotor = new HashSet<>();
     }
 
