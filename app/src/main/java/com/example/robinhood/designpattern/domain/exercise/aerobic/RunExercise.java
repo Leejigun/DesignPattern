@@ -1,5 +1,7 @@
 package com.example.robinhood.designpattern.domain.exercise.aerobic;
 
+import android.util.Log;
+
 /**
  * Created by robinhood on 2017. 7. 3..
  */
@@ -21,11 +23,11 @@ public class RunExercise extends BodyTraningExercise {
 
     @Override
     long burnCalrorie() {
-        return 0;
+        return (time / 1000 / 60) * 10;
     }
 
     @Override
     public void doExercise() {
-
+        Log.d("Exercise", "Run " + time + "time diet =" + burnCalrorie()+ "cal");
     }
 }

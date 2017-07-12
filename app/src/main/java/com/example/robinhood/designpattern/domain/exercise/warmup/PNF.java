@@ -16,4 +16,8 @@ import com.example.robinhood.designpattern.domain.exercise.Exercise;
  */
 
 public class PNF extends Exercise {
+    @Override
+    public void doExercise() {
+
+    }
 }

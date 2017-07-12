@@ -18,4 +18,8 @@ import com.example.robinhood.designpattern.domain.exercise.Exercise;
  */
 
 public class PassiveStretching extends Exercise {
+    @Override
+    public void doExercise() {
+
+    }
 }

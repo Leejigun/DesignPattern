@@ -1,4 +1,4 @@
-package com.example.robinhood.designpattern.domain;
+package com.example.robinhood.designpattern.domain.exercise;
 
 import com.example.robinhood.designpattern.domain.exercise.Exercise;
 

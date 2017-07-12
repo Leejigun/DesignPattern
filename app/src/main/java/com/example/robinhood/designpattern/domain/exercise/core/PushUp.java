@@ -1,5 +1,7 @@
 package com.example.robinhood.designpattern.domain.exercise.core;
 
+import android.util.Log;
+
 import com.example.robinhood.designpattern.domain.exercise.CountExercise;
 import com.example.robinhood.designpattern.domain.exercise.Exercise;
 import com.example.robinhood.designpattern.domain.exercise.anaerobic.Anaerobic;
@@ -18,6 +20,6 @@ public class PushUp extends CountExercise {
 
     @Override
     public void doExercise() {
-
+        Log.d("Exercise", "DO!! PushUp " + count + "count");
     }
 }

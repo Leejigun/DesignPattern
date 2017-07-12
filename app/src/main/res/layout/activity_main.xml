@@ -7,12 +7,31 @@
     tools:context="com.example.robinhood.designpattern.MainActivity">
 
     <TextView
+        android:id="@+id/expert_exercise_textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
+        tools:text="Expert"
         app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@+id/horizonline"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintHorizontal_bias="0.25" />
+
+    <View
+        android:id="@+id/horizonline"
+        android:layout_height="match_parent"
+        android:layout_width="1dp"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:background="@android:color/black"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <TextView
+        android:id="@+id/beginner_exercise_textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        tools:text="Beginner"
+        app:layout_constraintTop_toTopOf="@+id/expert_exercise_textView"
+        app:layout_constraintLeft_toRightOf="@+id/horizonline" />
 
 </android.support.constraint.ConstraintLayout>

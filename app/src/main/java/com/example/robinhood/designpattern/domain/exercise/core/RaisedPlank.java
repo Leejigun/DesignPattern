@@ -1,7 +1,8 @@
 package com.example.robinhood.designpattern.domain.exercise.core;
 
-import com.example.robinhood.designpattern.domain.TimeExercise;
-import com.example.robinhood.designpattern.domain.exercise.Exercise;
+import android.util.Log;
+
+import com.example.robinhood.designpattern.domain.exercise.TimeExercise;
 
 /**
  * Created by sean on 2017. 7. 9..
@@ -15,6 +16,6 @@ public class RaisedPlank extends TimeExercise {
 
     @Override
     public void doExercise() {
-
+        Log.d("Exercise", "DO!! RaisedPlank " + time + "ms");
     }
 }

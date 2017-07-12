@@ -1,5 +1,7 @@
 package com.example.robinhood.designpattern.domain.exercise.warmup;
 
+import android.util.Log;
+
 import com.example.robinhood.designpattern.domain.exercise.Exercise;
 
 /**
@@ -13,4 +15,8 @@ import com.example.robinhood.designpattern.domain.exercise.Exercise;
  */
 
 public class DynamicStretching extends Exercise {
+    @Override
+    public void doExercise() {
+        Log.d("Exercise", "DO!! Dynamic Stretching");
+    }
 }

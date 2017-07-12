@@ -1,6 +1,6 @@
 package com.example.robinhood.designpattern.domain.exercise.aerobic;
 
-import com.example.robinhood.designpattern.domain.TimeExercise;
+import com.example.robinhood.designpattern.domain.exercise.TimeExercise;
 
 /**
  * Created by robinhood on 2017. 7. 3..

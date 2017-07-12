@@ -10,11 +10,11 @@ import java.util.Set;
  */
 
 public abstract class Anaerobic extends Exercise {
-    private int cycle;
+    protected int cycle;
 
-    private int weight;
+    protected int weight;
 
-    private int count;
+    protected int count;
 
     protected Locomotor locomotor;
 

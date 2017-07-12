@@ -1,9 +1,8 @@
 package com.example.robinhood.designpattern.domain.exercise.core;
 
-import com.example.robinhood.designpattern.domain.TimeExercise;
-import com.example.robinhood.designpattern.domain.exercise.Exercise;
-import com.example.robinhood.designpattern.domain.exercise.anaerobic.Anaerobic;
-import com.example.robinhood.designpattern.domain.exercise.anaerobic.Locomotor;
+import android.util.Log;
+
+import com.example.robinhood.designpattern.domain.exercise.TimeExercise;
 
 /**
  * Created by robinhood on 2017. 7. 3..
@@ -18,6 +17,6 @@ public class Plank extends TimeExercise {
 
     @Override
     public void doExercise() {
-
+        Log.d("Exercise", "DO!! Plank " + time + "ms");
     }
 }

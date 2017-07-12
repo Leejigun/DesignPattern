@@ -5,7 +5,6 @@ import com.example.robinhood.designpattern.domain.exercise.aerobic.Aerobic;
 import com.example.robinhood.designpattern.domain.exercise.aerobic.WalkExercise;
 import com.example.robinhood.designpattern.domain.exercise.anaerobic.Anaerobic;
 import com.example.robinhood.designpattern.domain.exercise.anaerobic.BenchPress;
-import com.example.robinhood.designpattern.domain.exercise.anaerobic.Locomotor;
 import com.example.robinhood.designpattern.domain.exercise.anaerobic.Lunge;
 import com.example.robinhood.designpattern.domain.exercise.anaerobic.Squat;
 import com.example.robinhood.designpattern.domain.exercise.core.Crunch;
